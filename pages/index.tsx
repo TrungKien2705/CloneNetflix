@@ -31,7 +31,7 @@ export default function Home() {
 
   return (
     <>
-      <InfoModal visbile={isOpen} onClose={closeModal} />
+      <InfoModal visible={isOpen} onClose={closeModal} />
       <Navbar />
       <Billboad />
       <div className="pb-40">
